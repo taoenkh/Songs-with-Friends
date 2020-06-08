@@ -55,6 +55,8 @@ In the server side, we check the difference between them every 4 seconds, when t
 For the playlist, we maintained an array in the server, in which there are two songs by default, and all the clients will play the very first song once they are logged in. 
 One problem is that we could not support users joined in the middle to synchronize with the host, if the host has finished playing his/her current song, all the clients will get the command to play the next song with the host together.
 
+If time permits, we will try to use the seek api of Spotify to synchronize all the users joined in the middle.
+
 To update the playlist, every client will user a /getplaylist api to check the array stores the playlist in the server. Clicking Sync Playlist, will rerender the front-end page to the lates playlist.
 
 ### Chat
