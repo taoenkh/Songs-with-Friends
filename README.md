@@ -1,20 +1,5 @@
-# ECS 162 Final Project Songs-with-Friends
-Team members :
-## Lihang Pan (lhpan@ucdavis.edu)
-## Jiaqi Liu (jiqliu@ucdavis.edu)
-## Tao Wang (ttwwang@ucdavis.edu)
+Songs-with-Friends
 
-# Problem encountered
-
-Due to the inablity to install some packages, and the inconvinience of glitch, we decided to develop our project in our local machine with `create-react-app` and `express js`. We also found that the project itself takes about 300 MBytes after unzipped, which will exceed the disk memory of glitch. In addition, we could not find an easy way to deploy our web app, since we used proxies to route between react and the backend. It is actually two seperate apps running. 
-We also prepared a video demo to show how our web app works.
-
-https://ucdaviscoe.zoom.us/rec/play/vMJ_cO_-qzs3GdOR4QSDUaMoW46-JqOs1nUXq_tYxE6zBSNWNlPwMOAaaurkh14USSC2kB6trvJ030Ii?continueMode=true&_x_zm_rtaid=b1xL-lbVSBC6jCopR4df3w.1591590399946.8a4a4d5b5904424eb09fd230cc566569&_x_zm_rhtaid=518
-
-Please click the url above to check the video demo.
-
-In this demo, I first tested that if they are playing the same song once the users starts the application.
-In addition, I tested the front-end UI's for example, current status of a song (including duration of a song and the current position, chat UI capability, editing the chat room name, synchronizing the playlist (rendering)).
 ## Interesting trick to skip a song
 
 Beside that there is also a interesting feature that we can utilize it as skipping a certain song, that is the host manually dragging the position of the song in the spotify wep app near the end. When the host's current track reaches the end, all the users will change to the next track.
