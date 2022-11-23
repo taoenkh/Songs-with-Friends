@@ -22,7 +22,7 @@
     "passport": "^0.4.1",
     "passport-spotify": "^1.1.0",
     "request": "^2.88.2",
-    "socket.io": "^2.3.0",
+    "socket.io": "^2.5.0",
     "spotify": "^0.3.0",
     "spotify-web-api-node": "^4.0.0"
   },
